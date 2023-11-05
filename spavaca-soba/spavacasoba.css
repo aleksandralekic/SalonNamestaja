@@ -1,0 +1,155 @@
+body{
+    margin-bottom: 20px;
+    background-image: url("../img/pozadinaa.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+
+  
+  
+  .navbar {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+  }
+  
+  .main-content{
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      margin-top: 80px;
+      width: 700px;
+      border: 1px solid rgb(146, 144, 144);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 
+      'Open Sans', 'Helvetica Neue', sans-serif;
+      margin-bottom: 150px;
+  }
+  
+.tekst {
+      font-family: 'Poppins', serif;
+      font-size: 20px;
+      text-align: center;
+      color: black;
+  }
+  
+  .opis h3{
+    font-family: 'Popins', serif;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    color: black;
+  }
+  
+  .logo{
+    width: 100px;
+  }
+
+
+
+  p{
+    font-size: 15px;
+    font-family: "Nunito Sans" , sans-serif ;
+    color: #3d3d3d;
+    font-weight: 400;
+    line-height: 25px;
+    margin: 0 0 0 0;
+  }
+  .footer-logo img{
+    max-width: 130px;
+  }
+  a{
+    text-decoration: none;
+  }
+  ul{
+    padding-left: 0;
+  }
+  
+  input:focus{
+    outline: none;
+  }
+  a:hover,
+  a:focus{
+    text-decoration: none;
+    outline: none;
+    color: #ffffff;
+  }
+  
+  
+  .footer{
+    background: #111111;
+    padding-top: 70px;
+    margin-bottom: -20px;
+  }
+  .footer-about{
+    margin-bottom: 30px;
+  }
+  .footer-about .footer-logo{
+    margin-bottom: 20px;
+  }
+  .footer-about p{
+    color: #b7b7b7;
+    margin-bottom: 30px;
+  }
+  .footer-widget{
+    margin-bottom: 30px;
+  }
+  .footer-widget h6{
+    color:  #ffffff;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+  }
+  .footer-widget ul li{
+    line-height: 36px;
+    list-style: none;
+  }
+  .footer-widget ul li a{
+    color: #b7b7b7;
+    font-size: 15px;
+  }
+  .footer-widget ul li a:hover{
+    color: #8d8a8a;
+  }
+  
+  .footer-widget i{
+    color: #8d8a8a;
+  
+  }
+  
+  .footer-widget i:hover{
+    color: #3d3d3d;
+  }
+  
+  .footer-copyright-text{
+    color: white;
+    margin-top: 15px;
+  }
+  
+  .footer-copyright-text p i{
+    color: #8d8a8a;
+  }
+  .footer-copyright-text p a{
+    color: #8d8a8a;
+  }
+  
+  
+  
+  
+  @media screen and (max-width:600px){
+    .main-content{
+        grid-template-columns: 1fr;
+    }
+    
+  }
+  
+  @media screen and (max-width: 900px) and (min-width: 600px) {
+  
+    .main-content{
+        grid-template-columns: 1fr 1fr;
+    }
+    
+  }
